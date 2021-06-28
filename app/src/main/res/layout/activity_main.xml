@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.projectuas.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Utama"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:fontFamily="@font/bangers"
+        android:layout_marginBottom="90dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:contentPadding="15dp"
+            app:cardBackgroundColor="@color/teal_700"
+            app:cardCornerRadius="25dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tebak_buah"
+                android:padding="10dp"
+                android:id="@+id/tebak"/>/>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:contentPadding="15dp"
+            app:cardBackgroundColor="@color/teal_700"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/resep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/resep_nusantara" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:contentPadding="15dp"
+            app:cardBackgroundColor="@color/teal_700"
+            app:cardCornerRadius="25dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pemutar_youtube"
+                android:padding="10dp"
+                android:id="@+id/youtube"/>/>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:contentPadding="15dp"
+            app:cardBackgroundColor="@color/teal_700"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile_saya" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright@2021 | By Humaidi Zakaria"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</LinearLayout>

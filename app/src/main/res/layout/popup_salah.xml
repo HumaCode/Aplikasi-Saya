@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/background_popup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPSSS..."
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_gravity="center"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape2"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/close"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawaban Kamu Kurang Tepat"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ULANGI"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_ori"
+        android:textSize="15dp"
+        android:id="@+id/kmb"/>
+
+
+
+</LinearLayout>

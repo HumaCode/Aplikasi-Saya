@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.projectuas.TebakBuah"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/tebakbuah"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/imageView_apel"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/apel"
+                    android:background="@drawable/shape"/>
+
+                <ImageView
+                    android:id="@+id/imageView_alpukat"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/alpukat"
+                    android:background="@drawable/shape2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView_durian"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/durian"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/shape3"/>
+
+                <ImageView
+                    android:id="@+id/imageView_ceri"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ceri"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/shape4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/imageView_jambuair"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/jambuair"
+                    android:background="@drawable/shape5"/>
+
+                <ImageView
+                    android:id="@+id/imageView_manggis"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/manggis"
+                    android:background="@drawable/shape6"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/imageView_pisang"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/pisangb"
+                    android:background="@drawable/shape7"/>
+
+                <ImageView
+                    android:id="@+id/imageView_semangka"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/semangkab"
+                    android:background="@drawable/shape8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView android:id="@+id/imageView_mangga"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/mango"
+                    android:background="@drawable/shape9"/>
+
+                <ImageView
+                    android:id="@+id/imageView_strauberry"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:src="@drawable/strawberry"
+                    android:background="@drawable/shape10"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/kembali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kembali"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/shape_ori"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Copyright@2021 | By Humaidi Zakaria"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

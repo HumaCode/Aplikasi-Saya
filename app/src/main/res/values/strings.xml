@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Project UAS</string>
+    <string name="resep">Resep Masakan Nusantara</string>
+    <string name="nama_saya">Humaidi Zakaria</string>
+    <string name="title_activity_alamat_saya">Map</string>
+</resources>
